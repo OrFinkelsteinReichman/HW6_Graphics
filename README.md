@@ -1,5 +1,36 @@
 # Computer Graphics - Exercise 5 - WebGL Basketball Court
 
+## Full Names
+- Or Finkelstein 211805155
+- Mathilde Benero 329907455
+
+---
+
+## How to Run the Implementation
+- Clone the repo, make sure you have node on the computer and run "node index.js". Open the browser on localhost:(your default port).
+
+## Additonal Features implemented
+- Realistic basketball court with textured wooden floor and a blue outer frame.
+- Accurate court lines: border, center line, three-point arcs, keys, and center circle.
+- Two basketball hoops (one at each end): each with backboard, orange rim, support pole and arm, and net.
+- Static basketball at center court with correct color, size, and black seam lines (including diagonal seams and texture).
+- Lighting and shadows for enhanced realism.
+- Interactive camera controls (OrbitControls, toggle with 'O' key).
+- HTML/CSS UI for instructions and score display.
+- Thin white border line between the blue frame and the main court.
+- Ball raised above the floor to highlight its shadow.
+- Custom court and ball textures.
+- All proportions and positions match real basketball court standards.
+
+## Sources of External Assets
+- src/blue_floor.jpeg 
+- src/basketball_court_texture.jpeg 
+- src/basketball_texture.jpeg
+- Three.js library
+- OrbitControls.js (included in project)
+- Screenshots
+
+
 ## Getting Started
 1. Clone this repository to your local machine
 2. Make sure you have Node.js installed
