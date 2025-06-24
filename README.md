@@ -1,4 +1,4 @@
-# Computer Graphics - Exercise 5 - WebGL Basketball Court
+# Computer Graphics - Exercise 6 - WebGL Basketball Court
 
 ## Full Names
 - Or Finkelstein 211805155
