@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express()
-const port = 8001
+const port = 8000
 
 app.use("/src", express.static(__dirname + "/src"));
 

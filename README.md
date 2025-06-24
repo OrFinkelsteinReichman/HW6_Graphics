@@ -10,6 +10,7 @@
 - Clone the repo, make sure you have node on the computer and run "node index.js". Open the browser on localhost:(your default port).
 
 ## Additonal Features implemented
+- All Features of HW6 + the previous hw5 below
 - Realistic basketball court with textured wooden floor and a blue outer frame.
 - Accurate court lines: border, center line, three-point arcs, keys, and center circle.
 - Two basketball hoops (one at each end): each with backboard, orange rim, support pole and arm, and net.
@@ -28,7 +29,7 @@
 - src/basketball_texture.jpeg
 - Three.js library
 - OrbitControls.js (included in project)
-- Screenshots
+- Videos
 
 
 ## Getting Started
