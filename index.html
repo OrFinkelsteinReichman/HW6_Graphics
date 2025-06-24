@@ -20,27 +20,31 @@
 			box-shadow: 0 4px 16px #0005;
 		}
 
-		/*#controls-container {*/
-		/*	position: absolute;*/
-		/*	bottom: 30px;*/
-		/*	left: 32px;*/
-		/*	color: #fff;*/
-		/*	background: rgba(25,25,30,0.85);*/
-		/*	border-radius: 8px;*/
-		/*	padding: 14px 20px 14px 18px;*/
-		/*	font-size: 16px;*/
-		/*	z-index: 2;*/
-		/*	box-shadow: 0 4px 12px #0006;*/
-		/*}*/
+		#power-container {
+			position: absolute;
+			top: 70px;
+			left: 32px;
+			color: #fff;
+			background: rgba(220, 90, 50, 0.85);
+			border-radius: 10px;
+			padding: 8px 18px;
+			font-size: 18px;
+			font-weight: bold;
+			z-index: 2;
+			box-shadow: 0 4px 16px #0005;
+		}
+
 	</style>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>
 </head>
 <body>
-<div id="score-container">Score: <span id="score">0</span></div>
-<!--<div id="controls-container">-->
-<!--	<h3>Controls:</h3>-->
-<!--	<p>O - Toggle orbit camera</p>-->
-<!--</div>-->
+<div id="score-container">
+	Score: <span id="score">0</span> |
+	Attempts: <span id="attempts">0</span> |
+	Made: <span id="made">0</span> |
+	%: <span id="pct">0</span>
+</div>
+<div id="shot-result" style="display:none; position:absolute; top:120px; left:32px; color:#fff; font-size:30px; font-weight:bold; text-shadow:0 2px 8px #000;"></div>
 <script src="src/hw5.js" type="module"></script>
 </body>
 </html>
